@@ -1,0 +1,124 @@
+####################### Banner #########################
+banner:
+  title: "Let us solve your critical website <br> development challenges"
+  image: "images/banner-art.svg"
+  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
+  button:
+    enable: true
+    label: "Contact With Us"
+    link: "#"
+
+##################### Feature ##########################
+feature:
+  enable: true
+  title: "Our Teams"
+  feature_item:
+    # feature item loop
+    - name: "Blogs/Podcast"
+      icon: "ti-microphone"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      link: "/teams/#Blogs%2FPodcast"
+
+    # feature item loop
+    - name: "Design"
+      icon: "ti-palette"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      link: "/teams/#Design"
+
+    # feature item loop
+    - name: "Hackathon/Workshops"
+      icon: "ti-user"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      link: "/teams/#Hackathon%2FWorkshops"
+
+    # feature item loop
+    - name: "Outreach"
+      icon: "ti-rss"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      link: "/teams/#Outreach"
+
+    # feature item loop
+    - name: "Projects"
+      icon: "ti-write"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      link: "/teams/#Projects"
+
+    # feature item loop
+    - name: "Review"
+      icon: "ti-bar-chart"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      link: "/teams/#Review"
+      # feature item loop
+    - name: "Sessions"
+      icon: "ti-blackboard"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      link: "/teams/#Sessions"
+
+    # feature item loop
+    - name: "Social"
+      icon: "ti-comments"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      link: "/teams/#Social"
+
+######################### Service #####################
+service:
+  enable: true
+  service_item:
+    # service item loop
+    - title: "It is the most advanced digital marketing and it company."
+      images:
+        - "images/service-1.png"
+        - "images/service-2.png"
+        - "images/service-3.png"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      button:
+        enable: true
+        label: "Check it out"
+        link: "#"
+
+    # service item loop
+    - title: "Events"
+      images:
+        - "images/service-1.png"
+      content: "About events. Upcoming Event"
+      button:
+        enable: true
+        label: "Hacktoberfest"
+        link: "#"
+
+    # service item loop
+    - title: "It’s a team of experienced and skilled people with distributions"
+      images:
+        - "images/service-2.png"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      button:
+        enable: true
+        label: "Check it out"
+        link: "#"
+
+    # service item loop
+    - title: "A company standing different from others"
+      images:
+        - "images/service-3.png"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      button:
+        enable: true
+        label: "Check it out"
+        link: "#"
+
+################### Screenshot ########################
+screenshot:
+  enable: true
+  title: "Experience the best <br> workflow with us"
+  image: "images/screenshot.svg"
+
+##################### Call to action #####################
+call_to_action:
+  enable: true
+  title: "Ready to get started?"
+  image: "images/cta.svg"
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  button:
+    enable: true
+    label: "Contact Us"
+    link: "contact"
