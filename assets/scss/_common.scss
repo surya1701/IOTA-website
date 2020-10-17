@@ -180,6 +180,17 @@ a:hover {
   transform: rotateY(180deg);
 }
 
+.social-icons-flip a {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  border-radius: 50%;
+
+  &:hover {
+    color: $white;
+    background-color: $primary-color;
+  }
+}
+
 // form control
 
 .form-control {
