@@ -1,7 +1,7 @@
 ---
 title: "President"
 name: "abc def"
-image: "images/blog/post-2.jpg"
+image: "images/members/default.jpg"
 draft: false
 weight: 1
 ---

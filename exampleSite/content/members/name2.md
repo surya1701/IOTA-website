@@ -1,7 +1,7 @@
 ---
 title: "Member"
 name: "abc def"
-image: "images/blog/post-1.jpg"
+image: "images/members/default.jpg"
 draft: false
 weight: 2
 ---
