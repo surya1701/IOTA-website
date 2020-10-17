@@ -169,14 +169,14 @@ a:hover {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: $white;
   color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: $white;
+  color: $white;
   transform: rotateY(180deg);
 }
 
