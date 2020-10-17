@@ -6,12 +6,12 @@
     <div class="container">
         <div class="row">
             {{ range .Pages.ByWeight }}
-            <div class="col-12 col-md-4 mb-3 pb-5">
-                <div class="row align-items-center">
-                    <div class="col-4">
+            <div class="col-12 col-md-4 mb-3 pb-5 flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
                         <img src="{{ .Params.image | absURL }}" alt="{{.Name}}" class="img-fluid mb-2 profile">
                     </div>
-                    <div class="col-8">
+                    <div class="flip-card-back">
                         <h2>{{ .Params.name }} </h2>
                         <h4>{{ .Title }} </h4>
                     </div>
