@@ -182,8 +182,10 @@ a:hover {
 
 .social-icons-flip a {
   color: $primary-color;
+  line-height: 35px;
   border: 1px solid $primary-color;
   border-radius: 50%;
+  display: block;
 
   &:hover {
     color: $white;
