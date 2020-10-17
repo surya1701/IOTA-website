@@ -6,12 +6,12 @@
     <div class="container">
         <div class="row">
             {{ range .Pages.ByWeight }}
-            <div class="col-12 mb-5 pb-5">
+            <div class="col-12 col-md-4 mb-3 pb-5">
                 <div class="row align-items-center">
-                    <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="col-md-1 mb-1">
                         <img src="{{ .Params.image | absURL }}" alt="{{.Name}}" class="img-fluid mb-2 profile">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-3">
                         <h2>{{ .Name }} </h2>
                         <h4>{{ .Title }} </h4>
                     </div>
