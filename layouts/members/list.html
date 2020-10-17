@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            {{ range .Data.Pages }}
+            <div class="col-12 mb-5 pb-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <img src="{{ .Params.image | absURL }}" alt="{{.Name}}" class="img-fluid w-100 profile">
+                    </div>
+                    <div class="col-md-6">
+                        <h2><a href="{{ .Permalink }}" class="post-title">{{ .Name }}</a></h2>
+                        <p class="card-text">{{ .Summary }}</p>
+                        <a href="{{.Permalink}}" class="btn btn-primary">{{ .Title }}</a>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ end }}
