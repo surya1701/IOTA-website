@@ -11,10 +11,10 @@
                     <div class="flip-card-front">
                         <img src="{{ .Params.image | absURL }}" alt="{{.Name}}" class="profile">
                     </div>
-                    <div class="flip-card-back">
+                    <div class="flip-card-back align-items-center">
                         <h2>{{ .Params.name }} </h2>
                         <h4>{{ .Title }} </h4>
-                        <div class="social-icons-flip text-center">
+                        <div class="social-icons-flip">
                             <a href="{{ .Params.linkedin | safeURL }}"><i class="ti-linkedin"></i></a>
                         </div>
                     </div>
