@@ -14,9 +14,9 @@
                     <div class="flip-card-back">
                         <h2>{{ .Params.name }} </h2>
                         <h4>{{ .Title }} </h4>
-                        <a href="{{ .Params.linkedin | safeURL }}" style="border: 1px solid;"><i
-                                class="ti-linkedin"></i></a>
-                        </li>
+                        <div class="social-icons">
+                            <a href="{{ .Params.linkedin | safeURL }}"><i class="ti-linkedin"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
