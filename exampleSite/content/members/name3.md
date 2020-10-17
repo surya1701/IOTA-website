@@ -1,7 +1,7 @@
 ---
-title: "Vice-President"
+title: "Lead"
 name: "abc def"
 image: "images/members/default.jpg"
 draft: false
-weight: 2
+weight: 3
 ---
