@@ -55,18 +55,13 @@ name = "Contact"
 [[menu.support]]
 URL = "privacy-policy"
 name = "Privacy Policy"
-[[menu.support]]
-URL = "terms-conditions"
-name = "Terms & Conditions"
+
 [[menu.support]]
 URL = "teams"
 name = "Teams"
 [params]
-author = "Themefisher"
-contact_form_action = "#"
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
 description = "This is meta description"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_content = "Project club of IIIT Sricity."
 logo = "images/iota_logo.png"
 logo_width = "100px"
 [params.navigation_button]
