@@ -1,9 +1,10 @@
 .nav-item {
-  margin: 0;
+  text-align: center;
 
   .nav-link {
     text-transform: capitalize;
     font-weight: 700;
+    font-size: 1.3em;
   }
 }
 
@@ -20,6 +21,8 @@
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
 
   @include desktop {
     padding: 10px;
@@ -28,7 +31,10 @@
 .navigation {
   border: 4px;
   background-color: $border-color;
+
 }
 .ti-menu {
   color: $primary-color;
+  font-size: 1.5em;
 }
+
