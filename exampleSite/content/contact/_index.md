@@ -9,7 +9,7 @@ draft: false
 
 
 ### Why you should contact us!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+We're here to help and answer any question youmight have.We look forward to hearing from you.
 
 * **Phone: +88 125 256 452** 
 * **Mail: iota@iiits.in**
