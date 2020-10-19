@@ -65,25 +65,25 @@ service:
   enable: true
   service_item:
     # service item loop
+    - title: "Events"
+      images:
+        - "images/pic_1.jpg"
+        - "images/pic_2.jpg"
+        - "images/pic_4.jpg"
+      content: "Check for more information about upcoming events by IOTA"
+      button:
+        enable: true
+        label: "Recent event - HacktoberFest"
+        link: "#"
+
+    # service item loop
     - title: "It is the most advanced digital marketing and it company."
       images:
         - "images/service-1.png"
-        - "images/service-2.png"
-        - "images/service-3.png"
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
       button:
         enable: true
         label: "Check it out"
-        link: "#"
-
-    # service item loop
-    - title: "Events"
-      images:
-        - "images/service-1.png"
-      content: "About events. Upcoming Event"
-      button:
-        enable: true
-        label: "Hacktoberfest"
         link: "#"
 
     # service item loop
