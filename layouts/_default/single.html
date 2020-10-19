@@ -9,11 +9,12 @@
       <div class="col-lg-8 mx-auto">
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         <h2 class="mb-4">{{ .Title }}</h2>
-        <ul>
+        <div class="tag-div">
+          <h3>Tags: </h3>
           {{ range (.GetTerms "tags") }}
-          <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
           {{ end }}
-        </ul>
+        </div>
         <div class="content">{{.Content}}</div>
 
         <!-- comments -->
