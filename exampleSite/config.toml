@@ -1,0 +1,105 @@
+baseURL = "http://bigspring-iota.org/"
+disqusShortname = ""
+googleAnalytics = ""
+languageCode = "en-us"
+languageName = "En"
+paginate = "3"
+summaryLength = "15"
+theme = "IOTA-website"
+title = "IOTA"
+handle = "Home"
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.project]]
+URL = "projects/post-1/"
+name = "Project 1"
+[[menu.project]]
+URL = "projects/post-2/"
+name = "Project 2"
+[[menu.main]]
+URL = ""
+name = "Home"
+weight = 1
+[[menu.main]]
+URL = "projects"
+name = "Projects"
+weight = 2
+[[menu.main]]
+URL = "teams"
+name = "Teams"
+weight = 3
+[[menu.main]]
+URL = "members"
+name = "Members"
+weight = 4
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
+[[menu.nav]]
+URL = "/"
+name = "Home"
+weight = 1
+[[menu.nav]]
+URL = "projects"
+name = "Projects"
+[[menu.nav]]
+URL = "teams"
+name = "Teams"
+[[menu.nav]]
+URL = "members"
+name = "Members"
+[[menu.nav]]
+URL = "contact"
+name = "Contact"
+[[menu.support]]
+URL = "privacy-policy"
+name = "Privacy Policy"
+
+[[menu.support]]
+URL = "teams"
+name = "Teams"
+[params]
+description = "This is meta description"
+footer_content = "Project club of IIIT Sricity."
+logo = "images/iota_logo.png"
+logo_width = "100px"
+[params.navigation_button]
+enable = false
+label = "Get Started"
+link = "contact"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[params.preloader]
+enable = false
+preloader = ""
+[[params.social]]
+icon = "ti-instagram"
+link = "https://www.instagram.com/iota_iiits/"
+title = "instagram"
+[[params.social]]
+icon = "ti-facebook"
+link = "https://www.facebook.com/IOTA.IIITS/"
+title = "facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/IiitsIota"
+title = "twitter"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/iota-iiits/"
+title = "linkedin"
+[[params.social]]
+icon = "ti-youtube"
+link = "https://youtube.com/channel/UCjgxVYzHDlEWZZbCrjC1JSA"
+title = "youtube"
