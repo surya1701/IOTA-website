@@ -3,7 +3,6 @@
 <!-- banner -->
 {{ with site.Data.homepage.banner }}
 <section class="banner">
-  <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
         <h1 class="mb-3">{{ .title | markdownify }}</h1>
@@ -17,7 +16,6 @@
         {{with .image}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}}
       </div>
     </div>
-  </div>
 </section>
 {{ end }}
 <!-- /banner -->
@@ -148,3 +146,4 @@
 <!-- /call to action -->
 
 {{ end }}
+

@@ -6,7 +6,7 @@
   {{ else }}
   {{ $address = substr .URL 1 -1}}
   {{ end }}
-  <div class="container">
+  <!-- <div class="container"> -->
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <a class="navbar-brand" href="{{ site.BaseURL }}">
@@ -17,8 +17,8 @@
         <i class="ti-menu h3"></i>
       </button>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul id="ul_id" class="navbar-nav ml-auto">
           {{ range site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -51,6 +51,6 @@
         {{ end }}
       </div>
     </nav>
-  </div>
+  <!-- </div> -->
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
