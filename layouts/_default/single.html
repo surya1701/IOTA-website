@@ -18,7 +18,8 @@
         <div class="tag-div">
           <p>By:
             {{ range $name := .Params.by }}
-            <a href="#">{{ $name }}</a>,
+            {{ $link := $name | printf "%s/#%s" ("members"|absURL) | printf "%s" }}
+            <a href="{{ $link }}">{{ $name }}</a>,
             {{ end }}
         </div>
         <div class="content">{{.Content}}</div>

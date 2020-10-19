@@ -1,6 +1,6 @@
 ---
 title: "Vice-President"
-name: "abc def"
+name: "xyz def"
 linkedin: "#"
 github: "#"
 image: "images/members/default.jpg"
