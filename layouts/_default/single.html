@@ -10,10 +10,16 @@
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         <h2 class="mb-4">{{ .Title }}</h2>
         <div class="tag-div">
-          <h3>Tags: </h3>
-          {{ range (.GetTerms "tags") }}
-          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
-          {{ end }}
+          <p>Tags:
+            {{ range (.GetTerms "tags") }}
+            <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+            {{ end }}
+        </div>
+        <div class="tag-div">
+          <p>By:
+            {{ range $name := .Params.by }}
+            <a href="#">{{ $name }}</a>,
+            {{ end }}
         </div>
         <div class="content">{{.Content}}</div>
 
