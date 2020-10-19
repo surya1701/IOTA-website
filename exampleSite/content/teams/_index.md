@@ -17,7 +17,7 @@ Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipis
 {{</ teams >}}
 
 {{< teams "Hackathon/Workshops" "images/service-1.png">}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam.
+Hackathons and Workshops Team is responsible for planning and conducting hackathons and workshops -- on and off campus, throughout the academic year. We actively look for ways to empower students of all skill levels and support our community. Our team provides students with the opportunity to test their coding skills and develop new ones, while also getting the chance to network and get free swag. [link](https://examplesite.com) 
 {{</ teams >}}
 
 {{< teams "Outreach" "images/service-1.png">}}
@@ -25,11 +25,11 @@ Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipis
 {{</ teams >}}
 
 {{< teams "Projects" "images/service-1.png">}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam.
+Projects team provides students with a multidisciplinary experience,working in diverse teams to tackle challenging problems and help them in learning new things.The projects team is responsible for supervising the projects undertaken by the club. [link](https://examplesite.com) 
 {{</ teams >}}
 
 {{< teams "Review" "images/service-1.png">}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam.
+Review Team of IOTA helps to determine the comprehensive evaluation of team in form of Regular Progress Update & valuable remarks for smooth functioning & better growth of each team. [link](https://examplesite.com)
 {{</ teams >}}
 
 {{< teams "Sessions" "images/service-1.png">}}
@@ -39,5 +39,3 @@ Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipis
 {{< teams "Social" "images/service-1.png">}}
 Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam.
 {{</ teams >}}
-
-

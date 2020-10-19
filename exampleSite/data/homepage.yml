@@ -1,7 +1,10 @@
 ####################### Banner #########################
 banner:
-  title: "Let us solve your critical website <br> development challenges"
-  image: "images/banner-art.svg"
+  title: "About Us"
+  images:
+    - "images/service-1.png"
+    - "images/service-2.png"
+    - "images/service-3.png"
   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
   button:
     enable: true
@@ -65,27 +68,15 @@ service:
   enable: true
   service_item:
     # service item loop
-    - title: "It is the most advanced digital marketing and it company."
-      images:
-        - "images/service-1.png"
-        - "images/service-2.png"
-        - "images/service-3.png"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable: true
-        label: "Check it out"
-        link: "#"
-
-    # service item loop
     - title: "Events"
       images:
-        - "images/service-1.png"
-        - "images/service-2.png"
-        - "images/service-3.png"
-      content: "About events. Upcoming Event"
+        - "images/hacktoberfest2019/pic_1.jpg"
+        - "images/hacktoberfest2019/pic_2.jpg"
+        - "images/hacktoberfest2019/pic_4.jpg"
+      content: "Check for more information about upcoming events by IOTA"
       button:
         enable: true
-        label: "Hacktoberfest"
+        label: "Recent event - HacktoberFest"
         link: "https://project-club-iiits.github.io/hacktoberfest/"
 
     # service item loop
@@ -98,19 +89,9 @@ service:
         label: "Check it out"
         link: "#"
 
-    # service item loop
-    - title: "A company standing different from others"
-      images:
-        - "images/service-3.png"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable: true
-        label: "Check it out"
-        link: "#"
-
 ################### Screenshot ########################
 screenshot:
-  enable: true
+  enable: false
   title: "Experience the best <br> workflow with us"
   image: "images/screenshot.svg"
 
