@@ -1,7 +1,10 @@
 ####################### Banner #########################
 banner:
-  title: "Let us solve your critical website <br> development challenges"
-  image: "images/banner-art.svg"
+  title: "About Us"
+  images: 
+    - "images/service-1.png"
+    - "images/service-2.png"
+    - "images/service-3.png"
   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
   button:
     enable: true
@@ -82,7 +85,7 @@ service:
         - "images/service-1.png"
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
       button:
-        enable: true
+        enable: false
         label: "Check it out"
         link: "#"
 
@@ -92,7 +95,7 @@ service:
         - "images/service-2.png"
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
       button:
-        enable: true
+        enable: false
         label: "Check it out"
         link: "#"
 
@@ -108,7 +111,7 @@ service:
 
 ################### Screenshot ########################
 screenshot:
-  enable: true
+  enable: false
   title: "Experience the best <br> workflow with us"
   image: "images/screenshot.svg"
 
