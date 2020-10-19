@@ -5,6 +5,13 @@
 <section class="banner">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
+        <!--{{with .image}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}}-->
+        <div {{if gt (len .images) 1}}class="slider" {{end}}>
+          {{ range .images }}
+          <img src="{{ . | absURL }}" class="img-fluid">
+          {{ end }}
+        </div>
+
         <h1 class="mb-3">{{ .title | markdownify }}</h1>
         <p class="mb-4">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
@@ -13,7 +20,6 @@
         {{ end }}
         {{ end }}
 
-        {{with .image}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}}
       </div>
     </div>
 </section>
