@@ -37,5 +37,5 @@ Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipis
 {{</ teams >}}
 
 {{< teams "Social" "images/service-1.png">}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam.
+The social team manages and oversees the social media content. We handle, measure and analyse social media campaigns and we work with the design team to ensure that the posts are as informative and appealing as possible.
 {{</ teams >}}
