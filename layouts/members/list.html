@@ -4,19 +4,22 @@
 
 <section class="section">
     <div class="container">
-        <div class="row">
+        <div class="d-flex flex-row flex-wrap justify-content-center">
             {{ range .Pages.ByWeight }}
-            <div class="col-12 col-md-4 mb-3 pb-5 flip-card" id="{{ .Params.Name }}">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="{{ .Params.image | absURL }}" alt="{{.Name}}" class="profile">
-                    </div>
-                    <div class="flip-card-back align-items-center">
-                        <h2>{{ .Params.name }} </h2>
-                        <h4>{{ .Title }} </h4>
-                        <div class="social-icons-flip">
-                            <a href="{{ .Params.linkedin | safeURL }}" target="_blank"><i class="ti-linkedin"></i></a>
-                            <a href="{{ .Params.github | safeURL }}" target="_blank"><i class="ti-github"></i></a>
+            <div class="flex-fill d-flex justify-content-center">
+                <div class="flip-card" id="{{ .Params.Name }}">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="{{ .Params.image | absURL }}" alt="{{.Name}}" class="profile">
+                        </div>
+                        <div class="flip-card-back align-items-center">
+                            <h2>{{ .Params.name }} </h2>
+                            <h4>{{ .Title }} </h4>
+                            <div class="social-icons-flip d-flex flex-row justify-content-center">
+                                <a href="{{ .Params.linkedin | safeURL }}" target="_blank"><i
+                                        class="ti-linkedin"></i></a>
+                                <a href="{{ .Params.github | safeURL }}" target="_blank"><i class="ti-github"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
