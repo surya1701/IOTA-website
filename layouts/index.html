@@ -3,25 +3,26 @@
 <!-- banner -->
 {{ with site.Data.homepage.banner }}
 <section class="banner">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <!--{{with .image}}<img src="{{ . | absURL }}" class="img-fluid mt-5" width="750px">{{end}}-->
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-10 mx-auto text-center">
         <div {{if gt (len .images) 1}}class="slider" {{end}}>
           {{ range .images }}
           <img src="{{ . | absURL }}" class="img-fluid">
           {{ end }}
         </div>
-
-        <h1 class="mb-3">{{ .title | markdownify }}</h1>
-        <p class="mb-4">{{ .content | markdownify }}</p>
+      </div>
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
         <div><a href="{{ .link | safeURL }}" class="btn btn-primary">{{ .label }}</a></div>
         {{ end }}
         {{ end }}
-
       </div>
     </div>
+  </div>
 </section>
 {{ end }}
 <!-- /banner -->
@@ -37,12 +38,12 @@
       </div>
       {{ range .feature_item }}
       <div class="col-md-4 col-sm-6 mb-4">
-        <a href="{{ .link | safeURL }}" >
-        <div class="feature-card text-center">
-          <i class="{{.icon}} mb-3"></i>
-          <h4 class="mb-2">{{ .name | title }}</h4>
-          <p>{{ .content | markdownify }}</p>
-        </div>
+        <a href="{{ .link | safeURL }}">
+          <div class="feature-card text-center">
+            <i class="{{.icon}} mb-3"></i>
+            <h4 class="mb-2">{{ .name | title }}</h4>
+            <p>{{ .content | markdownify }}</p>
+          </div>
         </a>
       </div>
       {{ end }}
@@ -152,4 +153,3 @@
 <!-- /call to action -->
 
 {{ end }}
-
