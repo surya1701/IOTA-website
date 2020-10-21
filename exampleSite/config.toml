@@ -64,6 +64,7 @@ description = "This is meta description"
 footer_content = "Project club of IIIT Sricity."
 logo = "images/iota_logo.png"
 logo_width = "100px"
+copyright = "Design By [Themefisher](https://themefisher.com/) Developed By [Gethugothemes](https://gethugothemes.com/)"
 [params.navigation_button]
 enable = false
 label = "Get Started"
