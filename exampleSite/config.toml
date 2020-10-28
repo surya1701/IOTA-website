@@ -5,7 +5,7 @@ languageCode = "en-us"
 languageName = "En"
 paginate = "3"
 summaryLength = "15"
-theme = "IOTA-website"
+theme = "bigspring"
 title = "IOTA"
 handle = "Home"
 [markup.goldmark.renderer]
@@ -55,16 +55,20 @@ name = "Contact"
 [[menu.support]]
 URL = "privacy-policy"
 name = "Privacy Policy"
-
+[[menu.support]]
+URL = "terms-conditions"
+name = "Terms & Conditions"
 [[menu.support]]
 URL = "teams"
 name = "Teams"
 [params]
+author = "Themefisher"
+contact_form_action = "#"
+copyright = "Credits:   "
 description = "This is meta description"
-footer_content = "Project club of IIIT Sricity."
+footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
 logo = "images/iota_logo.png"
 logo_width = "100px"
-copyright = "Design By [Themefisher](https://themefisher.com/) Developed By [Gethugothemes](https://gethugothemes.com/)"
 [params.navigation_button]
 enable = false
 label = "Get Started"
@@ -104,3 +108,39 @@ title = "linkedin"
 icon = "ti-youtube"
 link = "https://youtube.com/channel/UCjgxVYzHDlEWZZbCrjC1JSA"
 title = "youtube"
+[[params.copyrights]]
+icon="ti-linkedin"
+link="https://www.linkedin.com/in/suryavardan-suresh-9116511a0"
+names="Suryavardan  "
+[[params.copyrights]]
+icon="ti-linkedin"
+link="https://www.linkedin.com/in/anurag-kumar-003904191/"
+names="Anurag   "
+[[params.copyrights]]
+icon="ti-linkedin"
+link="https://www.linkedin.com/in/piyush-kumar-8687a3191"
+names="Piyush"
+[[params.copyrights]]
+icon="ti-linkedin"
+link="https://www.linkedin.com/in/priyam-bajpai-1b564a1a0"
+names="Priyam"
+[[params.copyrights]]
+icon="ti-linkedin"
+link="https://www.linkedin.com/in/khushi-pathak-756a41196"
+names="Khushi "
+[[params.copyrights]]
+icon="ti-linkedin"
+link="https://www.linkedin.com/in/anuhya-sarabu-276525194"
+names="Anuhya "
+[[params.copyrights]]
+icon="ti-linkedin"
+link="https://www.linkedin.com/in/kajal-srivastava-082066199"
+names="kajal"
+[[params.copyrights]]
+icon="ti-linkedin"
+link="https://www.linkedin.com/in/sashidhar-motte-155726194"
+names="Shashidar"
+[[params.copyrights]]
+icon="ti-linkedin"
+link="https://www.linkedin.com/in/sampath-kumar-reddy-manam-6516751a0"
+names="Sampath"
