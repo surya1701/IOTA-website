@@ -9,11 +9,12 @@ draft: false
 
 
 {{< teams "Blogs/Podcast" "images/themes/podcast.png">}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam.
+Blogs and podcasts team of IOTA is responsible for arranging podcasts and writing technical blogs on projects, new technologies related topics on different platforms like medium, dev.to etc.
 {{</ teams >}}
 
 {{< teams "Design" "images/themes/design.png">}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam.
+The design team of IOTA is primarily responsible for taking the ideas into life visually. We at the design team produce all sorts of design stuff ranging from graphic design, illustration and prototypes.
+We cordinate with other teams of IOTA to create content and produce events.
 {{</ teams >}}
 
 {{< teams "Hackathon/Workshops" "images/themes/workshop.png">}}
@@ -21,7 +22,7 @@ Hackathons and Workshops Team is responsible for planning and conducting hackath
 {{</ teams >}}
 
 {{< teams "Outreach" "images/themes/outreach.png">}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam.
+Here at the Outreach Team, we specialize in face-to-face engagement with communities across the country. We partner with groups and organisations to contribute and help make social change all while prioritizing equity and inclusion.
 {{</ teams >}}
 
 {{< teams "Projects" "images/themes/project.png">}}
@@ -33,7 +34,7 @@ Review Team of IOTA helps to determine the comprehensive evaluation of team in f
 {{</ teams >}}
 
 {{< teams "Sessions" "images/themes/session.png">}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam.
+The session team of IOTA is responsible for conducting sessions and talks on various technical topics, keeping the students up-to-date with the latest technological trends. Most of our work includes arranging speakers, conducting sessions, and quizzes.
 {{</ teams >}}
 
 {{< teams "Social" "images/themes/social.png">}}
