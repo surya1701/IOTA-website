@@ -32,15 +32,19 @@
 
         <ul class="list-inline social-icons">
           {{ range site.Params.social }}
-          <li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a>
-          </li>
+          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
           {{ end }}
         </ul>
       </div>
     </div>
-    <div class="border-top border-default text-center py-4 mt-4">
-      <small class="content">{{ site.Params.Copyright | markdownify }}</small>
-    </div>
+    <div class="border-top border-default text-center row container">
+      <ul class="list-inline list-unstyled footer-list text-center"></ul>
+          <p class="text-center " style="padding-left:23%;">{{ site.Params.copyright| markdownify}}</p>
+            {{ range site.Params.copyrights }}
+            <li class="list-inline-item"><small ><p><a target="_blank "href="{{ .link | safeURL }}"> {{ .names}} </a></p></small></li>
+          {{ end }}
+        
+      </ul>
   </div>
 </footer>
 
@@ -48,7 +52,6 @@
 {{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
 {{ end }}
-
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
