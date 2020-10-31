@@ -13,9 +13,6 @@ description: "This is meta description"
 draft: false
 ---
 
-### The students developed an application based on heutagogy which is planned to be used in the Govt. schools of Andhra Pradesh, it makes every kid learn on their own without totally depending on the teacher and it makes learning fun. 
-### Heutagogy, otherwise known as self-determined learning, is a student-centered instructional strategy that emphasizes the development of autonomy, capacity, and capability.
-
  The students developed an application based on heutagogy which is planned to be used in the Govt. schools of Andhra Pradesh, it makes every kid learn on their own without totally depending on the teacher and it makes learning fun. 
 
  Heutagogy, otherwise known as **self-determined learning**, is a student-centered instructional strategy that emphasizes the development of autonomy, capacity, and capability.
