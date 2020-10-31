@@ -1,5 +1,5 @@
 ---
-title: "Lead"
+title: "Secretary"
 name: "abc def"
 linkedin: "#"
 github: "#"
