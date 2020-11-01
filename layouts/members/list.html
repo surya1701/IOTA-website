@@ -10,7 +10,8 @@
                 <div class="flip-card" id="{{ .Params.Name }}">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="{{ .Params.image | absURL }}" alt="{{.Name}}" class="profile">
+                            <img class="profile rounded-circle" style="width:100%" src="{{ .Params.image | absURL }}"
+                                alt="{{.Name}}">
                         </div>
                         <div class="flip-card-back align-items-center">
                             <h2>{{ .Params.name }} </h2>
