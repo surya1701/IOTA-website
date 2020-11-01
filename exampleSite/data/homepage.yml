@@ -2,9 +2,9 @@
 banner:
   title: "About Us"
   images:
-    - "images/about1.jpg"
     - "images/about2.jpg"
-    
+
+    - "images/about1.jpg"
   content: "IOTA is a technical club of Indian Institute of Information Technology, Sri City.<br> We currently have more than 100 regular members. We regularly work on projects ranging from IoT, AI, AR, Application Development and Cloud with the help of faculty mentors.
            <br>We have recently started to collaborate with other organizations from different domains to work on projects or problem statements. We take up projects or try to work on problem statements."
   button:
