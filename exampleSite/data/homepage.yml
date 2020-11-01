@@ -2,9 +2,9 @@
 banner:
   title: "About Us"
   images:
-    - "images/service-1.png"
-    - "images/service-2.png"
-    - "images/service-3.png"
+    - "images/about1.jpg"
+    - "images/about2.jpg"
+
   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
   button:
     enable: true
@@ -19,48 +19,48 @@ feature:
     # feature item loop
     - name: "Blogs/Podcast"
       icon: "ti-microphone"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: ""
       link: "/teams/#Blogs%2FPodcast"
 
     # feature item loop
     - name: "Design"
       icon: "ti-palette"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: ""
       link: "/teams/#Design"
 
     # feature item loop
     - name: "Hackathon/Workshops"
       icon: "ti-user"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: ""
       link: "/teams/#Hackathon%2FWorkshops"
 
     # feature item loop
     - name: "Outreach"
       icon: "ti-rss"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: ""
       link: "/teams/#Outreach"
 
     # feature item loop
     - name: "Projects"
       icon: "ti-write"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: ""
       link: "/teams/#Projects"
 
     # feature item loop
     - name: "Review"
       icon: "ti-bar-chart"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: ""
       link: "/teams/#Review"
       # feature item loop
     - name: "Sessions"
       icon: "ti-blackboard"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: ""
       link: "/teams/#Sessions"
 
     # feature item loop
     - name: "Social"
       icon: "ti-comments"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: ""
       link: "/teams/#Social"
 
 ######################### Service #####################
@@ -100,7 +100,7 @@ call_to_action:
   enable: true
   title: "Ready to get started?"
   image: "images/cta.svg"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  content: "Let our teams work for you ."
   button:
     enable: true
     label: "Contact Us"

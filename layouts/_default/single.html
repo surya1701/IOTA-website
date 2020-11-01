@@ -9,10 +9,11 @@
       <div class="col-lg-8 mx-auto">
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         <h2 class="mb-4">{{ .Title }}</h2>
-        By <i class="ti-user" style="font-size: 1.3em;"></i>:
+        By <i class="ti-user" style="font-size: 1.3em; margin-bottom: 10px;"></i>:
+        <br>
         {{ range $name := .Params.by }}
         {{ $link := $name | printf "%s/#%s" ("members"|absURL) | printf "%s" }}
-        <a href="{{ $link }}" class="badge badge-info" style="font-size: 1.3em;">{{ $name }}</a>
+        <a href="{{ $link }}" class="badge badge-info" style="font-size: 1.3em; margin-bottom: 10px;">{{ $name }}</a>
         {{ end }}
         <div style="padding-top: 20px; padding-bottom: 40px;">
           Tags<i class="ti-tag" style="font-size: 1.3em;"></i>:

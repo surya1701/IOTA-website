@@ -39,28 +39,13 @@ weight = 5
 [[menu.nav]]
 URL = "/"
 name = "Home"
-weight = 1
-[[menu.nav]]
-URL = "projects"
-name = "Projects"
-[[menu.nav]]
-URL = "teams"
-name = "Teams"
-[[menu.nav]]
-URL = "members"
-name = "Members"
+weight=1
 [[menu.nav]]
 URL = "contact"
 name = "Contact"
-[[menu.support]]
+[[menu.nav]]
 URL = "privacy-policy"
 name = "Privacy Policy"
-[[menu.support]]
-URL = "terms-conditions"
-name = "Terms & Conditions"
-[[menu.support]]
-URL = "teams"
-name = "Teams"
 [params]
 author = "Themefisher"
 contact_form_action = "#"
