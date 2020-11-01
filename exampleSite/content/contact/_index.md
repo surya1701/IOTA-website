@@ -4,7 +4,6 @@ handle: "Contact"
 subtitle: ""
 # meta description
 description: "This is meta description"
-terms: true
 draft: false
 ---
 
