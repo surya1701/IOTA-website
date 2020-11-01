@@ -4,8 +4,9 @@ banner:
   images:
     - "images/about1.jpg"
     - "images/about2.jpg"
-
-  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
+    
+  content: "IOTA is a technical club of Indian Institute of Information Technology, Sri City.<br> We currently have more than 100 regular members. We regularly work on projects ranging from IoT, AI, AR, Application Development and Cloud with the help of faculty mentors.
+           <br>We have recently started to collaborate with other organizations from different domains to work on projects or problem statements. We take up projects or try to work on problem statements."
   button:
     enable: true
     label: "Contact With Us"
@@ -83,7 +84,8 @@ service:
     - title: "It’s a team of experienced and skilled people with distributions"
       images:
         - "images/service-2.png"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content: "We can collaborate on projects. We can allow a group of students either for working full time or to provide necessary support as per requirement.<br>
+Our club constantly conducts training sessions and skill development programs for all its members to ensure everyone is in touch with the latest technologies."
       button:
         enable: true
         label: "Check it out"
