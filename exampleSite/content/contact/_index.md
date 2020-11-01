@@ -4,6 +4,7 @@ handle: "Contact"
 subtitle: ""
 # meta description
 description: "This is meta description"
+terms: true
 draft: false
 ---
 
@@ -14,3 +15,4 @@ We're here to help and answer any questions you might have. We look forward to h
 * **Phone: +88 125 256 452** 
 * **Mail: iota@iiits.in**
 * **Address: IIITS Sri City**
+* **[Privacy Policy](../privacy-policy)**
