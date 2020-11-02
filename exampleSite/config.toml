@@ -51,7 +51,7 @@ author = "Themefisher"
 contact_form_action = "#"
 copyright = "Credits:   "
 description = "This is meta description"
-footer_content = "Project club of IIIT Sricity."
+footer_content = ""
 logo = "images/iota_logo.png"
 logo_width = "100px"
 [params.navigation_button]

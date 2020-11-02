@@ -14,4 +14,3 @@ We're here to help and answer any questions you might have. We look forward to h
 * **Mail: iota@iiits.in**
 * **Address: IIIT Sri City, 630 Gnan Marg, Sri City, Satyavedu Mandal
 Chittoor District - 517 646, Andhra Pradesh, India**
-* **[Privacy Policy](../privacy-policy)**
