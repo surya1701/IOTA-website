@@ -4,7 +4,7 @@ banner:
   images:
     - "images/about2.jpg"
     - "images/about1.jpg"
-    
+
   content: "IOTA is a technical club of IIIT, Sri City. Our members regularly work on projects ranging from IoT, AI, AR, Application Development and Cloud with the help of faculty mentors.<br>We have collaborated with other organizations from different domains to work on projects or problem statements. We take up projects or try to work on problem statements.<br>We also have study groups where students work and learn together. This has proved to be helpful as many students secured  Internships right after their First Year."
   button:
     enable: true
@@ -73,22 +73,25 @@ service:
         - "images/hacktoberfest2019/pic_1.jpg"
         - "images/hacktoberfest2019/pic_2.jpg"
         - "images/hacktoberfest2019/pic_4.jpg"
-      content: "Check for more information about upcoming events by IOTA"
+      content:
+        "Events and workshops introduce new ideas and inspire participants to further explore and learn something new. It is a great way to teach hands-on skills as it gives learners an opportunity to try out new methods and fail in a safe environment.
+        <br>Find the latest/upcoming events held by IOTA right here"
       button:
         enable: true
-        label: "Recent event - HacktoberFest"
+        label: "HacktoberFest"
         link: "https://project-club-iiits.github.io/hacktoberfest/"
 
     # service item loop
-    - title: "It’s a team of experienced and skilled people with distributions"
+    - title: "Want to collaborate with us?"
       images:
-        - "images/service-2.png"
-      content: "We can collaborate on projects. We can allow a group of students either for working full time or to provide necessary support as per requirement.<br>
-Our club constantly conducts training sessions and skill development programs for all its members to ensure everyone is in touch with the latest technologies."
+        - "images/cta.svg"
+      content:
+        "We work on projects in web development, app development and server management.<br>
+        Training sessions and skill development programs are conducted regularly, to ensure all our members are in touch with the latest technologies."
       button:
         enable: true
-        label: "Check it out"
-        link: "#"
+        label: "Contact Us"
+        link: "contact"
 
 ################### Screenshot ########################
 screenshot:
@@ -98,7 +101,7 @@ screenshot:
 
 ##################### Call to action #####################
 call_to_action:
-  enable: true
+  enable: false
   title: "Ready to get started?"
   image: "images/cta.svg"
   content: "Let our teams work for you ."
