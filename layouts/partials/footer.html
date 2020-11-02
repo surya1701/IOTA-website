@@ -25,10 +25,11 @@
     <hr>
     <div class="d-flex flex-row flex-wrap text-center align-content-start justify-content-center">
       <ul class="list-inline list-unstyled footer-list text-center"></ul>
-      <p class="text-center">{{ site.Params.copyright| markdownify}}</p>
+      <p class="text-center">{{ site.Params.copyright| markdownify}} </p>
       {{ range site.Params.copyrights }}
-      <li class="list-inline-item"><small>
-          <p><a target="_blank " href="{{ .link | safeURL }}"> {{ .names}} </a></p>
+      <li class="list-inline-item credits"><small>
+          <p><a target="_blank " href="{{ .link | safeURL }}" style="color: #4d4d4d;"> <b>{{ .names}}</b> </a>
+          </p>
         </small></li>
       {{ end }}
       </ul>
