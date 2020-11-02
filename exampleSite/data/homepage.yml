@@ -5,7 +5,7 @@ banner:
     - "images/about2.jpg"
     - "images/about1.jpg"
     
-  content: "IOTA is a technical club of IIIT, Sri City. Our members regularly work on projects ranging from IoT, AI, AR, Application Development and Cloud with the help of faculty mentors.<br>We have collaborated with other organizations from different domains to work on projects or problem statements. We take up projects or try to work on problem statements.<br>We also have study groups where students work and learn together. This has proved to be helpful as many students secured  Internships right after their First Year."
+  content: "IOTA is a technical club of IIIT, Sri City. Our members regularly work on projects ranging from IoT, AI, AR, Application Development and Cloud with the help of faculty mentors.<br>We have collaborated with other organizations from different domains to work on projects or problem statements. We take up projects or try to work on problem statements.<br>We also have study groups where students work and learn together.The primary idea is to start new interdisciplinary projects and bring all the good academic projects of the institute under a common body and host all of them online to help the students and create an open-source culture. This will facilitate peer to peer learning among the students, avoid repetition and cultivate product development skills as well as project management skills in them right from the start. This has proved to be helpful as many students secured  Internships right after their First Year."
   button:
     enable: true
     label: "Contact With Us"
