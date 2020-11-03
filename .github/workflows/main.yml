@@ -18,12 +18,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.1.0
         with:
-          path: .
+          path: "IOTA-website"
           submodules: recursive
       - name: Build and Push
         uses: Project-Club-IIITS/hugo-remote@master
         env:
-          BUILD_DIR: exampleSite
+          BUILD_DIR: "IOTA-website/exampleSite"
           USER: iota-iiits
           TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
           DEST: "public_site"
