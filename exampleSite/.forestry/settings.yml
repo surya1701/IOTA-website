@@ -33,9 +33,6 @@ sections:
 - type: document
   path: exampleSite/content/members/_index.md
   label: Members
-- type: document
-  path: exampleSite/content/privacy-policy/_index.md
-  label: Privacy Policy
 - type: heading
   label: All Pages
 - type: directory

@@ -2,11 +2,8 @@
 title: "Teams"
 handle: "Teams"
 subtitle: ""
-# meta description
-description: "This is meta description"
 draft: false
 ---
-
 
 {{< teams "Blogs/Podcast" "images/themes/podcast.png">}}
 Blogs and podcasts team of IOTA is responsible for arranging podcasts and writing technical blogs on projects, new technologies related topics on different platforms like medium, dev.to etc.

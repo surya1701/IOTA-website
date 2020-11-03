@@ -1,0 +1,31 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Hugo Build
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+    paths-ignore:
+      - '.github/**'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.1.0
+        with:
+          path: .
+          submodules: recursive
+      - name: Build and Push
+        uses: Project-Club-IIITS/hugo-remote@master
+        env:
+          BUILD_DIR: exampleSite
+          USER: iota-iiits
+          TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
+          DEST: "public_site"
+          REMOTE: iota-iiits/iota-iiits.github.io.git
+          ARGS: "--themesDir ../.."

@@ -15,6 +15,3 @@ fields:
   name: type
   label: type
   description: 'Available type: featured/regular'
-- type: text
-  name: description
-  label: meta description

@@ -1,4 +1,4 @@
-baseURL = "http://bigspring-iota.org/"
+baseURL="https://iota-iiits.tech"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
@@ -10,12 +10,6 @@ title = "IOTA"
 handle = "Home"
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.project]]
-URL = "projects/post-1/"
-name = "Project 1"
-[[menu.project]]
-URL = "projects/post-2/"
-name = "Project 2"
 [[menu.main]]
 URL = ""
 name = "Home"
@@ -43,14 +37,11 @@ weight=1
 [[menu.nav]]
 URL = "contact"
 name = "Contact"
-[[menu.nav]]
-URL = "privacy-policy"
-name = "Privacy Policy"
 [params]
-author = "Themefisher"
+author = "IOTA"
 contact_form_action = "#"
-copyright = "Credits:   "
-description = "This is meta description"
+copyright = "Made By: "
+description = "IOTA is the Projects Club of IIIT Sri City. We have collaborated with other organizations from different domains to work on projects or problem statements. We also conducts regular sessions, workshops and hacakthons in various CS related topics."
 footer_content = ""
 logo = "images/iota_logo.png"
 logo_width = "100px"

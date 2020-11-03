@@ -4,7 +4,7 @@ banner:
   images:
     - "images/about2.jpg"
     - "images/about1.jpg"
-  content: "IOTA is a technical club of IIIT, Sri City. Our members regularly work on projects ranging from IoT, AI, AR, Application Development and Cloud with the help of faculty mentors.<br>We have collaborated with other organizations from different domains to work on projects or problem statements. We take up projects or try to work on problem statements.<br>We also have study groups where students work and learn together. This has proved to be helpful as many students secured  Internships right after their First Year."
+  content: "IOTA is a technical club of IIIT, Sri City. Our members regularly work on projects ranging from IoT, AI, AR, Application/Web Development and Cloud with the help of faculty mentors.<br>We have collaborated with other organizations from different domains to work on projects or problem statements. We take up projects or try to work on problem statements.<br>We also have study groups where students work and learn together. We also keep on conducting hackathons, workshops and tutorial sessions regularly."
 
   button:
     enable: true
@@ -70,7 +70,7 @@ service:
     # service item loop
     - title: "Events"
       images:
-        - "images/hacktoberfest2019/pic_1.jpg"
+        - "images/sessions/ansible-hands-on.png"
         - "images/hacktoberfest2019/pic_2.jpg"
         - "images/hacktoberfest2019/pic_4.jpg"
       content:
@@ -78,8 +78,8 @@ service:
         <br>Find the latest/upcoming events held by IOTA right here"
       button:
         enable: true
-        label: "HacktoberFest"
-        link: "https://project-club-iiits.github.io/hacktoberfest/"
+        label: "Ansible Hands On"
+        link: "https://youtu.be/6_Krs9p9U7I"
 
     # service item loop
     - title: "Want to collaborate with us?"
